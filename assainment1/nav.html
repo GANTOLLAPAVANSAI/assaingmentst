@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook Login</title>
+	<link rel="stylesheet" type="text/css" href="text.css">
+</head>
+<body>
+    <style>
+		form {
+			width: 300px;
+			margin: 0 auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			background-color: #f4f4f4;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+			font-size: 14px;
+			color: #333;
+		}
+		
+		input[type="text"], input[type="password"] {
+			display: block;
+			width: 100%;
+			padding: 5px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		input[type="submit"] {
+			background-color: #3b5998;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #2d4373;
+		}
+    	</style>
+    </head>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <input type="submit" value="Login">
+        </form>
+	</main>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+header {
+	background-color: #3b5998;
+	height: 45px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	margin-bottom: 50px;
+	padding: 0 20px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
